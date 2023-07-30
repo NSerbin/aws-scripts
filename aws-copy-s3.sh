@@ -1,9 +1,9 @@
 #!/bin/bash
 
-SOURCE_BUCKET="prod-gbl-core-acamica-backup"
-DESTINATION_BUCKET="temp-acamica-backup-videos"
-FILE_LIST="/home/koopernic/Work/Projects/results.txt"
-PROFILE="dh-latam-prod"
+SOURCE_BUCKET=$1
+DESTINATION_BUCKET=$2
+FILE_LIST=$4
+PROFILE=$3
 SUCCESS_OUTPUT_FILE="success.txt"
 SUCCESS_OUTPUT_FILE="error.txt"
 # Iterate over each file in the list
